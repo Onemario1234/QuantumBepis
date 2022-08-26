@@ -4,6 +4,7 @@
  Bepis, in the final release, will feature...
  - A different appearance for every planet it orbits; vastly different than the Quantum Moon's surface.
  - The word Bepis.
+ - Ship Log Entries for every Variant, along with some light story planned in the future!
  - Special Signals emitted by the variants that were edited by TerrificTrifid, the lad.
  
  This is a temporary README, it'll become more finalized once the full release is incoming.
