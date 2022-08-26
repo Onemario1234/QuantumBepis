@@ -1,0 +1,128 @@
+{
+    "name": "Bepis",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "isQuantumState": true,
+    "Base": {
+        "groundSize": 0,
+        "surfaceSize": 30,
+        "surfaceGravity": 1,
+        "hasMapMarker": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 800,
+        "inclination": 70,
+        "primaryBody": "BRITTLE_HOLLOW",
+        "isMoon": true,
+        "longitudeOfAscendingNode": 0,
+        "eccentricity": 0,
+        "argumentOfPeriapsis": 0,
+        "showOrbitLine": false,
+        "siderealPeriod": 0.1
+    },
+    "Atmosphere": {
+        "size": 0,
+        "fogTint": {
+            "r": 50,
+            "g": 50,
+            "b": 50,
+            "a": 255
+        },
+        "fogSize": 150,
+        "fogDensity": 0,
+        "hasOxygen": false
+    },
+    "Props": {
+        "volcanoes": [
+            {
+                "position": {
+                    "x": -25.64548,
+                    "y": 44.93102,
+                    "z": -86.74396
+                },
+                "lavaTint": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 225,
+                    "a": 255
+                },
+                "minLaunchSpeed": 70,
+                "maxLaunchSpeed": 120,
+                "minInterval": 5,
+                "maxInterval": 7
+            }, {
+                "position": {
+                    "x": -60.32056,
+                    "y": -62.03896,
+                    "z": 52.09222
+                },
+                "lavaTint": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 225,
+                    "a": 255
+                },
+                "minLaunchSpeed": 70,
+                "maxLaunchSpeed": 120,
+                "minInterval": 5,
+                "maxInterval": 7
+            }, {
+                "position": {
+                    "x": 22.87765,
+                    "y": -80.13017,
+                    "z": 57.06813
+                },
+                "lavaTint": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 225,
+                    "a": 255
+                },
+                "minLaunchSpeed": 70,
+                "maxLaunchSpeed": 120,
+                "minInterval": 5,
+                "maxInterval": 7
+            }, {
+                "position": {
+                    "x": 6.494208,
+                    "y": 99.14902,
+                    "z": 18.11905
+                },
+                "lavaTint": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 225,
+                    "a": 255
+                },
+                "minLaunchSpeed": 70,
+                "maxLaunchSpeed": 120,
+                "minInterval": 5,
+                "maxInterval": 7
+            }
+        ],
+        "details": [
+            { "path": "VolcanicMoon_Body/Sector_VM", "removeChildren": [ "Interactables_VM", "Effects_VM", "Volumes_VM" ], "position": { "x": 0, "y": 0, "z": 0 } }
+        ],
+        "signals": [
+            {
+                "frequency": "Quantum",
+                "name": "Bepis",
+                "audio": "assets/Bepis.wav",
+                "sourceRadius": 150,
+                "detectionRadius": 200,
+                "identificationRadius": 200
+            }
+        ]
+    },
+    "Lava": {
+        "size": 87.5,
+        "tint": {
+            "r": 0,
+            "g": 0,
+            "b": 255,
+            "a": 255
+        },
+        "curve": [
+            {"time": 0, "value": 1.15}, {"time": 5, "value": 1.15}, {"time": 20, "value": 0.975}
+        ]
+    }
+}

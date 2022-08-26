@@ -1,0 +1,51 @@
+{
+    "name": "Bepis",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "isQuantumState": true,
+    "Base": {
+        "groundSize": 0,
+        "surfaceSize": 11,
+        "surfaceGravity": 6,
+        "hasMapMarker": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 1400,
+        "inclination": 0,
+        "primaryBody": "TIMBER_HEARTH",
+        "isMoon": true,
+        "longitudeOfAscendingNode": 0,
+        "eccentricity": 0,
+        "argumentOfPeriapsis": 0,
+        "showOrbitLine": false,
+        "siderealPeriod": 1
+    },
+    "Atmosphere": {
+        "size": 15,
+        "fogTint": {
+            "r": 200,
+            "g": 255,
+            "b": 255,
+            "a": 255
+        },
+        "fogSize": 150,
+        "fogDensity": 0.2
+    },
+    "HeightMap": {
+        "textureMap": "assets/BepisHearth_Surface.png",
+        "heightMap": "assets/BepisHearth_Surface.png",
+        "minHeight": 10,
+        "maxHeight": 10
+    },
+    "Props": {
+        "signals": [
+            {
+                "frequency": "Quantum",
+                "name": "Bepis",
+                "audio": "assets/Bepis.wav",
+                "sourceRadius": 50,
+                "detectionRadius": 100,
+                "identificationRadius": 100
+            }
+        ]
+    }
+}

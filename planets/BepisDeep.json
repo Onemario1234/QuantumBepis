@@ -1,0 +1,88 @@
+{
+    "name": "Bepis",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "isQuantumState": true,
+    "Base": {
+        "groundSize": 0,
+        "surfaceSize": 51,
+        "surfaceGravity": 6,
+        "hasMapMarker": true,
+        "ambientLight": 0.7
+    },
+    "Orbit": {
+        "semiMajorAxis": 2000,
+        "inclination": 0,
+        "primaryBody": "GIANTS_DEEP",
+        "isMoon": true,
+        "longitudeOfAscendingNode": 0,
+        "eccentricity": 0,
+        "argumentOfPeriapsis": 0,
+        "showOrbitLine": false,
+        "siderealPeriod": 1
+    },
+    "Atmosphere": {
+        "size": 200,
+        "fogTint": {
+            "r": 150,
+            "g": 0,
+            "b": 255,
+            "a": 255
+        },
+        "fogSize": 150,
+        "fogDensity": 0.2,
+        "hasRain": true,
+        "hasOxygen": true,
+        "clouds": {
+            "cloudsPrefab": "giantsDeep",
+            "texturePath": "assets/BepisDeep_Clouds.png",
+            "fluidType": "cloud",
+            "hasLightning": true,
+            "innerCloudRadius": 250,
+            "outerCloudRadius": 300,
+            "tint": {
+                "r": 150,
+                "g": 0,
+                "b": 255,
+                "a": 255
+            }
+        }
+    },
+    "Water": {
+        "size": 48,
+        "tint": {
+            "r": 130,
+            "g": 0,
+            "b": 255,
+            "a": 255
+        },
+        "curve": [
+            {"time": 0, "value": 1}, {"time": 21, "value": 2}
+        ]
+    },
+    "Props": {
+        "signals": [
+            {
+                "frequency": "Quantum",
+                "name": "Bepis",
+                "audio": "assets/Bepis.wav",
+                "sourceRadius": 200,
+                "detectionRadius": 250,
+                "identificationRadius": 250
+            }
+        ]
+    },
+    "HeightMap": {
+        "textureMap": "assets/BepisHearth_Surface.png",
+        "heightMap": "assets/BepisHearth_Surface.png",
+        "minHeight": 50,
+        "maxHeight": 50
+    },
+    "Ring": {
+        "texture": "assets/BepisDeep_Ring.png",
+        "innerRadius": 400,
+        "outerRadius": 600,
+        "inclination": 25,
+        "rotationSpeed": 10,
+        "fluidType": "none"
+    }
+}
