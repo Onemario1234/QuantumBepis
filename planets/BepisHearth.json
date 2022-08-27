@@ -33,8 +33,8 @@
     "HeightMap": {
         "textureMap": "assets/BepisHearth_Surface.png",
         "heightMap": "assets/BepisHearth_Surface.png",
-        "minHeight": 10,
-        "maxHeight": 10
+        "minHeight": 90,
+        "maxHeight": 100
     },
     "Props": {
         "signals": [
@@ -42,9 +42,9 @@
                 "frequency": "Quantum",
                 "name": "Bepis",
                 "audio": "assets/Bepis.wav",
-                "sourceRadius": 50,
-                "detectionRadius": 100,
-                "identificationRadius": 100
+                "sourceRadius": 150,
+                "detectionRadius": 150,
+                "identificationRadius": 150
             }
         ]
     }
