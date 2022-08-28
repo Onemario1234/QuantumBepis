@@ -6,6 +6,7 @@
  - The word Bepis.
  - Ship Log Entries for every Variant, along with some light story planned in the future!
  - Special Signals emitted by the variants that were edited by TerrificTrifid, the lad.
+ - Something else...?
  
  This is a temporary README, it'll become more finalized once the full release is incoming.
  
